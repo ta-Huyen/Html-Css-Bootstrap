@@ -1,0 +1,38 @@
+.contact {
+    background-color: #F5F5F5;
+    padding: 40px 20px;
+}
+
+.contact-item h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact-item p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #141414;
+    opacity: 0.8;
+}
+
+.contact-item h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-item h6 span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #141414;
+    opacity: 0.7;
+}
+
+.contact-item-right {
+    background-color: #F0F0F0;
+}
+
+.contact-item-right img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}

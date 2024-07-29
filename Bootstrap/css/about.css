@@ -1,0 +1,151 @@
+.main-title {
+    background-color: #dee8ea;
+    background-image: url("../Images/about/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    min-height: 350px;
+    margin: 0px auto;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title .main-title-content {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.main-title .main-title-content h2 {
+    font-size: 32px;
+    color: white;
+}
+
+.main-title .main-title-content p {
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.number {
+    min-height: 241px;
+    width: 100%;
+    padding: 4em;
+    background-color: #10c9c3;
+}
+
+.number .row .number-item {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.number .row .number-img img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.number .row .number-img {
+    color: white;
+}
+
+.number .row .number-content {
+    margin-left: 20px;
+}
+
+.number .row .number-content .number-title {
+    font-size: 18px;
+    margin-top: 12px;
+
+}
+
+.number .row .number-content .number-text {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.about {
+    position: relative;
+    background-color: #F8F9F9;
+    min-height: 570px;
+    display: flex;
+    align-items: center;
+}
+
+.about::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background-image: url("../images/about/About.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 570px;
+    background-position: right center;
+}
+
+.about-content {
+    min-height: 570px;
+}
+
+.about-text {
+    width: 100%;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.align-right h2{
+    font-size: 32px;
+}
+
+.align-right p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #000;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+/* need a project */
+.need-a-project {
+    display: flex;
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.need-a-project-content h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.need-a-project-content p {
+    max-width: 600px; 
+    margin: 0 auto; 
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    opacity: 0.8;
+}
+
+.need-a-project .container .btn-form-contact{
+    background-color: #0fc9c3;
+    color: white;
+    font-size: 14px;
+    padding: 10px 40px;
+    border: 1px solid #0fc9c3;
+    text-transform: uppercase;
+}
+
+.need-a-project .container .btn-form-contact a {
+    color:white;
+    text-decoration: none;
+    list-style: none;
+}

@@ -12,17 +12,162 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(function(){
-            $("header").load("../nav&footer/navBar.html");
+            $(".nav-container").load("../nav&footer/navBar.html");
             $("footer").load("../nav&footer/footer.html");
         })
     </script>
 </head>
 <body>
     <!--Navigation-->
-    <header class="header"></header>
+    <header class="header">
+        <div class="nav-container"></div>
+        <div class="row align-items-center header-content">
+            <div class="col-12 col-lg-6 offset-lg-6">
+                <h2 class="text-black">We Design and Develop</h2>
+                <p class="py-3">We are a new design studio based in USA. We have over
+                    20 years of combined experience, and know a thing or two
+                    about designing websites and mobile apps.</p>
+                <a class="btn btn-contact btn-primary text-uppercase" href="contact.html" role="button">contact us</a>
+            </div>
+        </div>
+    </header>
     
     <main>
-        <p>Home page</p>
+        <section class="about">
+            <div class="container text-center">
+                <div class="about-us">
+                    <h1>About Us</h1>
+                    <p class="my-4">Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.
+                    </p>
+                    <img src="../Images/about/sign.png" class="" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="number">
+            <div class="row">
+                <div class="col-12 col-lg-3 number-item">
+                    <div class="number-img">
+                        <img src="../Images/about/briefcase.png" alt="">
+                    </div>
+                    <div class="number-content">
+                        <h2 class="number-title">548</h2>
+                        <p class="number-text">projects completed</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 number-item">
+                    <div class="number-img">
+                        <img src="../Images/about/clock-nine.png" alt="">
+                    </div>
+                    <div class="number-content">
+                        <h2 class="number-title">1465</h2>
+                        <p class="number-text">WORKING HOURS</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 number-item">
+                    <div class="number-img">
+                        <img src="../Images/about/star.png" alt="">
+                    </div>
+                    <div class="number-content">
+                        <h2 class="number-title">612</h2>
+                        <p class="number-text">POSITIVE FEEDBACKS</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 number-item">
+                    <div class="number-img">
+                        <img src="../Images/about/heart.png" alt="">
+                    </div>
+                    <div class="number-content">
+                        <h2 class="number-title">735</h2>
+                        <p class="number-text">HAPPY CLIENTS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="img-items">
+            <div class="grid-container">
+                <div class="item">
+                    <img class="img" src="../Images/home/c.jpg" alt="">
+                    <div class="overlay">
+                        <img src="../Images/home/view.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" src="../Images/home/phone.jpg" alt="">
+                    <div class="overlay">
+                        <img src="../Images/home/view.png" alt="">
+                    </div>     
+                </div>
+                <div class="item">            
+                    <img class="img" src="../Images/home/bag.jpg" alt="">
+                    <div class="overlay">
+                        <img src="../Images/home/view.png" alt="">
+                    </div>    
+                </div>
+                <div class="item">               
+                    <img class="img" src="../Images/home/book.jpg" alt="">
+                    <div class="overlay">
+                        <img src="../Images/home/view.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" src="../Images/home/glass.jpg" alt="">
+                    <div class="overlay">
+                        <img src="../Images/home/view.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" src="../Images/home/bag.jpg" alt="">
+                    <div class="overlay">
+                        <img src="../Images/home/view.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" src="../Images/home/honey.jpg" alt="">
+                    <div class="overlay">
+                        <img src="../Images/home/view.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img" src="../Images/home/she.jpg" alt="">
+                    <div class="overlay">
+                        <img src="../Images/home/view.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center work-loadmore">
+                <a class="link" href="home.html">load more work</a>
+            </div>
+        </section>   
+
+        <section class="work-process">
+            <div class="container text-center">
+                <div class="about-us">
+                    <h1>Our Work Process</h1>
+                    <p class="my-4">Was years it seasons was there form he in in them together over that,
+                        third sixth gathered female creeping bearing behold years.
+                    </p>
+                    <div class="work-process-item">
+                        <img class="work-process-img" src="../Images/one-page/header-background.jpg" alt="">
+                        <div class="work-process-overlay">
+                            <img src="../Images/one-page/play-button.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container text-center">
+                <div class="testimonials-content">
+                    <p>“ Outstanding job and exceeded all expectations. It was a pleasure </p>
+                    <p>to work with them on a sizable first project and am looking </p>
+                    <p>forward to start the next one asap.”</p>
+                    <h3>Michael Hopkins</h3>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--Footer-->
